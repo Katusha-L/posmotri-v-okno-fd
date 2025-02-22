@@ -40,7 +40,7 @@ html {
 }
 
 .result__video-container {
-  position:relative;
+  position: relative;
   width: 711px;
 }
 
@@ -59,7 +59,7 @@ html {
 }
 
 .content__video-card:active {
-  background-color:rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .content__video-card:focus {
@@ -67,11 +67,11 @@ html {
 }
 
 .content__video-card:focus-visible {
-  outline:1px solid white; 
+  outline: 1px solid white;
 }
 
 .content__card-link_current:active {
-  background-color:rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .content__video-card-thumbnail {
@@ -107,7 +107,7 @@ html {
 }
 
 .content__list-container {
-  position:relative;
+  position: relative;
   block-size: 298px;
   overflow: auto;
 }
@@ -136,7 +136,7 @@ html {
   grid-template-columns: repeat(3, 1fr);
   justify-items: space-evenly;
   align-items: start;
-  gap:40px;
+  gap: 40px;
   margin-top: 16px;
   font-family: "Fira Sans Condensed";
   font-size: 18px;
@@ -183,7 +183,7 @@ html {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline:1px solid white;
+  outline: 1px solid white;
   outline-offset: 2px;
 }
 
@@ -207,12 +207,12 @@ html {
 }
 
 .search-form__textfield:active {
-  border-right-color:white;
-  border-left-color:white;
+  border-right-color: white;
+  border-left-color: white;
 }
 
 .search-form__textfield:focus {
-  outline:none;
+  outline: none;
 }
 
 .search-form__checkbox-list {
@@ -223,7 +223,7 @@ html {
 
 .search-form__checkbox-list:hover {
   text-decoration: underline;
-  text-underline-offset: 4px;;
+  text-underline-offset: 4px;
 }
 
 .search-form__pseudo-checkbox {
@@ -236,7 +236,7 @@ html {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  content:"";
+  content: "";
   min-inline-size: 15px;
   min-block-size: 15px;
   background-color: white;
@@ -272,15 +272,15 @@ html {
 }
 
 .button:focus {
-  outline:none;
+  outline: none;
 }
 
 .button:active {
-  background-color:rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .button:focus-visible {
-  outline:1px solid white;
+  outline: 1px solid white;
   outline-offset: 2px;
 }
 
