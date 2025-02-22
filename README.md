@@ -1,1 +1,1 @@
-Посмотри в окно
+git@github.com:Katusha-L/posmotri-v-okno-fd.git
