@@ -230,7 +230,7 @@ html {
   gap: 15px;
 }
 
-.search-form__label-text:hover {
+.search-form__label:has(.search-form__pseudo-checkbox):hover {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
